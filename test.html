@@ -22,36 +22,34 @@
 </head>
 
 <body>
-<h2>Datatables server side process</h2>
+<h2>Pages</h2>
 
 <!--HTML table with student data-->
 <table id="tableID" class="display"
        style="width: 100%;">
     <thead>
     <tr>
-        <th>StudentID</th>
-        <th>StudentName</th>
-        <th>Age</th>
-        <th>Gender</th>
-        <th>Marks Scored</th>
+        <th>Sr #</th>
+        <th>Link</th>
+        <th>Description</th>
+        <th>Rating</th>
+        <th>Updated</th>
     </tr>
     </thead>
     <tfoot>
     <tr>
-        <th>StudentID</th>
-        <th>StudentName</th>
-        <th>Age</th>
-        <th>Gender</th>
-        <th>Marks Scored</th>
+        <th>Sr #</th>
+        <th>Link</th>
+        <th>Description</th>
+        <th>Rating</th>
+        <th>Updated</th>
     </tr>
     </tfoot>
 </table>
 
 <script>
-
     /* Initialization of datatable */
     $(document).ready(function () {
-
         /* Student's data loaded from
         text file */
         $('#tableID').DataTable({
@@ -60,5 +58,4 @@
     });
 </script>
 </body>
-
 </html>
