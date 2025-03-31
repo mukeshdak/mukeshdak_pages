@@ -38,7 +38,7 @@
                 [
             "<a href=http://notion.so>Notion</a>",
             "Shared Notepad live",
-            "4.005",
+            "4.9",
             "2025-03-29"
         ],
                 [
