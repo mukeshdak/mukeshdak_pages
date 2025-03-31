@@ -1,21 +1,21 @@
 {
     "data": [
         [   "01",
-            "<a href='https://journey.cloud/app/webLink/entry?syncDriveId=8LwBh6FEdjuzeQKz16wB&webLinkId=Lpxsm1o7tYWgmKjdhkIu&code=0b6ede03be424478bde21ac2bea1a4969e758789db8341fda09819dd79a2415b&entryId=LkYDTU9C3LLUU9AEEewf'>Journal Page</a>",
+            "<a href=https://journey.cloud/app/webLink/entry?syncDriveId=8LwBh6FEdjuzeQKz16wB&webLinkId=Lpxsm1o7tYWgmKjdhkIu&code=0b6ede03be424478bde21ac2bea1a4969e758789db8341fda09819dd79a2415b&entryId=LkYDTU9C3LLUU9AEEewf>Journal Page</a>",
             "Journey.cloud",
             "4.3",
             "2025-03-31"
         ],
         [
             "02",
-            "<a href="http://justnotepad.com">Just Notepad</a>",
+            "<a href=http://justnotepad.com>Just Notepad</a>",
             "Temporary Notes",
             "4.3",
             "2025-03-30"
         ],
         [
             "03",
-            "<a href="https://codeshare.io/mukeshdak">CodeSahre</a>,
+            "<a href=https://codeshare.io/mukeshdak>CodeSahre</a>",
             "Shared Notepad live",
             "4.005",
             "2025-03-29"
