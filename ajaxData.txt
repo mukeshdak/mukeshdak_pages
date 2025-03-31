@@ -30,7 +30,7 @@
             "2025-03-29"
         ],
         [
-            "<a href='https://codeshare.io/mukeshdak'>CodeSahre</a>",
+            "<a href=https://codeshare.io/mukeshdak>CodeSahre</a>",
             "Shared Notepad live",
             "4.005",
             "2025-03-29"
@@ -90,8 +90,8 @@
             "2025-03-29"
         ],
         [
-            "<a href=\"/css_navbar/index.html\">CSS Navbar</a>",
-            "Shared Notepad live",
+            "<a href=/css_navbar/index.html>CSS Navbar</a>",
+            "CSS Navbar",
             "4.005",
             "2025-03-29"
         ]
