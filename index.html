@@ -47,7 +47,6 @@
 <table id="tableID" class="display" style="width: 100%;">
     <thead>
     <tr>
-        <th>Sr #</th>
         <th>Link</th>
         <th>Description</th>
         <th>Rating</th>
@@ -55,11 +54,7 @@
     </tr>
     </thead>
 </table>
-
-    <a href="https://journey.cloud/app/webLink/entry?syncDriveId=8LwBh6FEdjuzeQKz16wB&webLinkId=Lpxsm1o7tYWgmKjdhkIu&code=0b6ede03be424478bde21ac2bea1a4969e758789db8341fda09819dd79a2415b&entryId=LkYDTU9C3LLUU9AEEewf">Journal Page</a>
     <ol>
-        <li><a href="http://justnotepad.com">Just Notepad</a> - Temporary Notes</li>
-        <li><a href="https://codeshare.io/mukeshdak">CodeSahre</a> - Shared Notepad live</li>
         <li><a href="https://to-do.microsoft.com/">MS ToDo</a> - ToDo list all</li>
         <li><a href="https://app.standardnotes.org">Standard Notes</a> - My Temp unorganised notes</li>
         <li><a href="http://mukeshdak.com/temp">temp</a> - My Temp notes ast md.com</li>
@@ -95,7 +90,24 @@
         /* Student's data loaded from
         text file */
         $('#tableID').DataTable({
-            "ajax": 'ajaxData.txt'
+            "ajax": 'ajaxData.txt',
+            "order": [[3, "desc"]],
+            "paging": true,
+            "ordering": true,
+            "info": true,
+            "columnDefs": [
+                {
+                    "targets": [0],
+                    "visible": true,
+                    "searchable": false
+                },
+                {
+                    "targets": [1],
+                    "visible": true
+                },
+                { width: 15, targets: [3] },
+                { width: 120, targets: [4] }
+            ]
         });
     });
 </script>
