@@ -17,6 +17,15 @@
             "4.005",
             "2025-03-29"
         ],
+
+        [
+            "<a href='https://demo.mukeshdak.com/xcrud/words.php'>Words</a>",
+            "Vocabulary urdu words",
+            "4.8",
+            "2025-04-13"
+        ],
+
+        
         [
             "<a href=https://to-do.microsoft.com>MS ToDo</a>",
             "MS ToDo",
