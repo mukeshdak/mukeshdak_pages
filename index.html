@@ -6,39 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport" />
 
-    <!-- Bootstrap CSS (v5.3.7) -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Pages of Mukesh Dak</title>
 
-    <!-- DataTables CSS (v2.2.0, Bootstrap 5 integration) -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/2.2.0/css/dataTables.bootstrap5.min.css" />
 
-    <!-- jQuery (v3.7.1) -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-3gJwYp4gU1yPp3p3r3Qw6Qp6Qp6Qp6Qp6Qp6Qp6Qp6Q=" crossorigin="anonymous"></script>
+    <!--Datatable plugin CSS file -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" />
 
-    <!-- DataTables JS (v2.2.0, Bootstrap 5 integration) -->
-    <script src="https://cdn.datatables.net/2.2.0/js/dataTables.bootstrap5.min.js"></script>
-    <script src="https://cdn.datatables.net/2.2.0/js/jquery.dataTables.min.js"></script>
+    <!--jQuery library file -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <!--Datatable plugin JS library file -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="https://pages.mukeshdak.com">Pages</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault"
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-                <a class="nav-link" href="http://mukeshdak.com">md.com<span class="sr-only">(current)</span></a>
-            </li>
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="https://mukeshdak.free.nf">MukeshDak.free.nf</a>
                 <a class="nav-link" href="https://demo.mukeshdak.com">Nimbahera</a>
             </li>
         </ul>
-        <form class="d-flex">
+        <form class="form-inline my-2 my-lg-0">
             <div class="text-white">Edit <a href="https://github.com/mukeshdak/mukeshdak_pages/edit/main/index.html" style="color: white;">Page</a> | 
                 <a href="https://github.com/mukeshdak/mukeshdak_pages/edit/main/ajaxData.txt" style="color: white;">Data</a>
             </div>
@@ -47,20 +44,28 @@
 </nav>
 
 <div class="container" style="margin-top: 70px;">
-    <table id="tableID" class="table table-striped display" style="width: 100%;">
-        <thead>
-        <tr>
-            <th>Link</th>
-            <th>Description</th>
-            <th>Rating</th>
-            <th>Updated</th>
-        </tr>
-        </thead>
-    </table>
+<table id="tableID" class="display" style="width: 100%;">
+    <thead>
+    <tr>
+        <th>Link</th>
+        <th>Description</th>
+        <th>Rating</th>
+        <th>Updated</th>
+    </tr>
+    </thead>
+</table>
 </div>
 
-<!-- Bootstrap Bundle JS (includes Popper) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>-->
+<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
+<!--<script src="custom.js"></script>-->
+<!--<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>-->
+<!--<script type="text/JavaScript">-->
+<!--    swal("Here's the title!", "...and here's the text!");-->
+<!--</script>-->
 
 <script>
     /* Initialization of datatable */
