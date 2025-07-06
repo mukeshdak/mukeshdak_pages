@@ -31,8 +31,8 @@
         ],
 
         [
-            "<a href='https://demo.mukeshdak.com/xcrud/words.php'>Words</a>",
-            "Vocabulary urdu words",
+            "<a href='https://nimbahera.com/words/index.php'>Words</a>",
+            "Vocabulary words",
             "4.8",
             "2025-04-13"
         ],
@@ -75,10 +75,10 @@
             "2025-03-29"
         ],
         [
-            "<a href=http://9f.biz>9f.biz</a>",
+            "<a href=https://mukeshdak.free.nf>MD Personal Page</a>",
             "Shared Notepad live",
-            "4.005",
-            "2025-03-29"
+            "5.0",
+            "2025-07-06"
         ],
                 [
             "<a href=http://pastebin.com/reenadak>ReenaDak</a>",
